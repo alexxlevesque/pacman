@@ -1,4 +1,4 @@
-"C:\Program Files\JetBrains\CLion 2024.2.1\bin\cmake\win\x64\bin\cmake.exe" -DCMAKE_BUILD_TYPE=Debug "-DCMAKE_MAKE_PROGRAM=C:/Program Files/JetBrains/CLion 2024.2.1/bin/ninja/win/x64/ninja.exe" -G Ninja -S "C:\Users\alex1\OneDrive - Queen's University\First Year Engineering\APSC 142\apsc141-142_introduction_to_c\Pacman-Project-W4" -B "C:\Users\alex1\OneDrive - Queen's University\First Year Engineering\APSC 142\apsc141-142_introduction_to_c\Pacman-Project-W4\cmake-build-debug"
+"C:\Program Files\JetBrains\CLion 2024.2.1\bin\cmake\win\x64\bin\cmake.exe" -DCMAKE_BUILD_TYPE=Debug "-DCMAKE_MAKE_PROGRAM=C:/Program Files/JetBrains/CLion 2024.2.1/bin/ninja/win/x64/ninja.exe" -G Ninja -S "C:\Users\alex1\OneDrive - Queen's University\First Year Engineering\APSC 142\APSC-142-Repositories\pacman-project\pacman-week-4" -B "C:\Users\alex1\OneDrive - Queen's University\First Year Engineering\APSC 142\APSC-142-Repositories\pacman-project\pacman-week-4\cmake-build-debug"
 -- The C compiler identification is GNU 13.1.0
 -- The CXX compiler identification is GNU 13.1.0
 -- Detecting C compiler ABI info
@@ -11,6 +11,15 @@
 -- Check for working CXX compiler: C:/Program Files/JetBrains/CLion 2024.2.1/bin/mingw/bin/g++.exe - skipped
 -- Detecting CXX compile features
 -- Detecting CXX compile features - done
--- Configuring done (7.7s)
--- Generating done (0.0s)
--- Build files have been written to: C:/Users/alex1/OneDrive - Queen's University/First Year Engineering/APSC 142/apsc141-142_introduction_to_c/Pacman-Project-W4/cmake-build-debug
+-- Configuring done (3.8s)
+CMake Error at CMakeLists.txt:12 (add_executable):
+  Cannot find source file:
+
+    apsc142project.c
+
+
+CMake Error at CMakeLists.txt:12 (add_executable):
+  No SOURCES given to target: project
+
+
+CMake Generate step failed.  Build files cannot be regenerated correctly.

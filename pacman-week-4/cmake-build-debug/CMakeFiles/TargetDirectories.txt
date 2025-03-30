@@ -1,4 +1,0 @@
-C:/Users/alex1/OneDrive - Queen's University/First Year Engineering/APSC 142/apsc141-142_introduction_to_c/Pacman-Project-W4/cmake-build-debug/CMakeFiles/project.dir
-C:/Users/alex1/OneDrive - Queen's University/First Year Engineering/APSC 142/apsc141-142_introduction_to_c/Pacman-Project-W4/cmake-build-debug/CMakeFiles/tests.dir
-C:/Users/alex1/OneDrive - Queen's University/First Year Engineering/APSC 142/apsc141-142_introduction_to_c/Pacman-Project-W4/cmake-build-debug/CMakeFiles/edit_cache.dir
-C:/Users/alex1/OneDrive - Queen's University/First Year Engineering/APSC 142/apsc141-142_introduction_to_c/Pacman-Project-W4/cmake-build-debug/CMakeFiles/rebuild_cache.dir
