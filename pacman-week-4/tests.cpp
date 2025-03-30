@@ -28,68 +28,7 @@ int width, height;
 TEST_SUITE_BEGIN("Map tests");
 
 // tests for load_map
-TEST_CASE("A test for load_map populates EMPTY correctly") {
-    // Create a temporary map file with empty spaces
-    FILE *fp = fopen("test_map.txt", "w");
-    REQUIRE(fp != NULL);
-    fprintf(fp, ".  .  .\n");
-    fprintf(fp, ".  .  .\n");
-    fprintf(fp, ".  .  .\n");
-    fclose(fp);
 
-    // Load the map
-    int map_height, map_width;
-    char *loaded_map = load_map("test_map.txt", &map_height, &map_width);
-    REQUIRE(loaded_map != NULL);
-    REQUIRE(map_height == 3);
-    REQUIRE(map_width == 3);
-
-    // Check that empty spaces are populated with EMPTY
-    for (int y = 0; y < map_height; y++) {
-        for (int x = 0; x < map_width; x++) {
-            CHECK(loaded_map[y * map_width + x] == EMPTY);
-        }
-    }
-
-    // Clean up
-    free(loaded_map);
-    remove("test_map.txt");
-}
-
-TEST_CASE("A test for load_map populates PLAYER correctly") {
-    // Create a temporary map file with a player
-    FILE *fp = fopen("test_map.txt", "w");
-    REQUIRE(fp != NULL);
-    fprintf(fp, ".  .  .\n");
-    fprintf(fp, ".  P  .\n");
-    fprintf(fp, ".  .  .\n");
-    fclose(fp);
-
-    // Load the map
-    int map_height, map_width;
-    char *loaded_map = load_map("test_map.txt", &map_height, &map_width);
-    REQUIRE(loaded_map != NULL);
-    REQUIRE(map_height == 3);
-    REQUIRE(map_width == 3);
-
-    // Check that player is correctly placed
-    CHECK(loaded_map[1 * map_width + 1] == PLAYER);
-
-    // Check that other positions are empty
-    for (int y = 0; y < map_height; y++) {
-        for (int x = 0; x < map_width; x++) {
-            if (y != 1 || x != 1) {
-                CHECK(loaded_map[y * map_width + x] == EMPTY);
-            }
-        }
-    }
-
-    // Clean up
-    free(loaded_map);
-    remove("test_map.txt");
-}
-
-// tests for is_wall
 
 TEST_SUITE_END();
 

@@ -161,7 +161,7 @@ void print_map(void) {
     // Prints the top border of walls
     for (int i = 0; i < width + 2; i++) {
         printc(WALL);
-        printf(" ");
+        if (i < width + 1) printf(" ");  // Don't print space after last character
     }
     printf("\n");
 
@@ -174,7 +174,7 @@ void print_map(void) {
         // Prints each character in the current row
         for (int x = 0; x < width; x++) {
             printc(map[y * width + x]);
-            printf(" ");
+            printf(" ");  // Always print space after each character
         }
 
         // Prints the right wall border for each row
@@ -185,7 +185,7 @@ void print_map(void) {
     // Prints the bottom border of walls
     for (int i = 0; i < width + 2; i++) {
         printc(WALL);
-        printf(" ");
+        if (i < width + 1) printf(" ");  // Don't print space after last character
     }
     printf("\n");
 }

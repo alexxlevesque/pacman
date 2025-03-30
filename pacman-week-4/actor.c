@@ -128,28 +128,30 @@ int move_ghost(int * y, int * x, char direction) {
     int new_y = *y;
     int new_x = *x;
 
+    // Move the ghost in the specified direction (only one space)
+    switch(direction) {
+        case RIGHT:
+            new_x++;
+            break;
+        case LEFT:
+            new_x--;
+            break;
+        case UP:
+            new_y--;
+            break;
+        case DOWN:
+            new_y++;
+            break;
+    }
+
     // check if the new coordinates point to a wall
     // check if the new coordinates point outside the map (also a wall)
-    // Move the ghost in the specified direction
-    if (direction == RIGHT){
-        new_x++;
-    }
-    if (direction == LEFT){
-        new_x--;
-    }
-    if (direction == UP){
-        new_y--;
-    }
-    if (direction == DOWN){
-        new_y++;
-    }
     if(is_wall(new_y, new_x)) {
         return MOVED_WALL;
     }
 
     // get the value from the old position in the dot_map (either EMPTY or DOT)
-    char temp = 0;
-    temp = dot_map[*y*width + *x];
+    char temp = dot_map[*y*width + *x];
 
     // remove ghost from the old position and replace with what was in dot_map
     map[*y*width + *x] = temp;
