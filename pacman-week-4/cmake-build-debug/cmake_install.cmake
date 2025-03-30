@@ -1,4 +1,4 @@
-# Install script for directory: C:/Users/alex1/OneDrive - Queen's University/First Year Engineering/APSC 142/apsc141-142_introduction_to_c/Pacman-Project-W4
+# Install script for directory: C:/Users/alex1/OneDrive - Queen's University/First Year Engineering/APSC 142/APSC-142-Repositories/pacman-project/pacman-week-4
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -45,5 +45,5 @@ endif()
 
 string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
        "${CMAKE_INSTALL_MANIFEST_FILES}")
-file(WRITE "C:/Users/alex1/OneDrive - Queen's University/First Year Engineering/APSC 142/apsc141-142_introduction_to_c/Pacman-Project-W4/cmake-build-debug/${CMAKE_INSTALL_MANIFEST}"
+file(WRITE "C:/Users/alex1/OneDrive - Queen's University/First Year Engineering/APSC 142/APSC-142-Repositories/pacman-project/pacman-week-4/cmake-build-debug/${CMAKE_INSTALL_MANIFEST}"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")

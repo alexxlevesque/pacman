@@ -1,0 +1,4 @@
+C:/Users/alex1/OneDrive - Queen's University/First Year Engineering/APSC 142/APSC-142-Repositories/pacman-project/pacman-week-4/cmake-build-debug/CMakeFiles/project.dir
+C:/Users/alex1/OneDrive - Queen's University/First Year Engineering/APSC 142/APSC-142-Repositories/pacman-project/pacman-week-4/cmake-build-debug/CMakeFiles/tests.dir
+C:/Users/alex1/OneDrive - Queen's University/First Year Engineering/APSC 142/APSC-142-Repositories/pacman-project/pacman-week-4/cmake-build-debug/CMakeFiles/edit_cache.dir
+C:/Users/alex1/OneDrive - Queen's University/First Year Engineering/APSC 142/APSC-142-Repositories/pacman-project/pacman-week-4/cmake-build-debug/CMakeFiles/rebuild_cache.dir
