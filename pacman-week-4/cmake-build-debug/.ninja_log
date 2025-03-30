@@ -1,0 +1,13 @@
+# ninja log v6
+22	365	7650219394612437	CMakeFiles/project.dir/map.c.obj	f14cb5c1c796d04a
+34	153	7650219394742506	CMakeFiles/project.dir/actor.c.obj	278921d31fc8abf7
+28	151	7650219394685660	CMakeFiles/project.dir/game.c.obj	f54a89b627cef2f6
+7	826	7650219394467976	CMakeFiles/project.dir/apsc142project.c.obj	425e4863802f32dc
+15	154	7650219394545097	CMakeFiles/project.dir/colours.c.obj	33276f22aceac7c
+826	1186	7650219402657374	project.exe	6d993b02a9f9e548
+40	152	7650227473156236	CMakeFiles/project.dir/game.c.obj	cad1f19d48371ff1
+24	245	7650227473002148	CMakeFiles/project.dir/apsc142project.c.obj	9e1fa08fdee871ed
+46	246	7650227473216259	CMakeFiles/project.dir/actor.c.obj	7c8081a21962b94a
+31	247	7650227473063583	CMakeFiles/project.dir/colours.c.obj	b21e078befde5f6b
+36	254	7650227473113657	CMakeFiles/project.dir/map.c.obj	e31f92909a4817df
+254	432	7650227475291884	project.exe	6d993b02a9f9e548
